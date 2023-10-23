@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db49f2cf-fcb2-436c-82f1-160cb9b3af0b" name="Changes" comment="Updates project files" />
+    <list default="true" id="db49f2cf-fcb2-436c-82f1-160cb9b3af0b" name="Changes" comment="Updated files">
+      <change afterPath="$PROJECT_DIR$/src/main/Day1/tools/tooling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/input/check.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Day1/CalorieCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Day1/CalorieCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Day1/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Day1/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Day1/tools/MyFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Day1/tools/MyFileReader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698059710842</updated>
       <workItem from="1698059711723" duration="133000" />
-      <workItem from="1698060040584" duration="3150000" />
+      <workItem from="1698060040584" duration="6429000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <option name="closed" value="true" />
@@ -96,7 +103,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698066925699</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated gitignore">
+      <option name="closed" value="true" />
+      <created>1698067077295</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698067077295</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated files">
+      <option name="closed" value="true" />
+      <created>1698067122925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698067122925</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +131,19 @@
     <MESSAGE value="Implemented FileReader + added quiz input" />
     <MESSAGE value="read quiz input" />
     <MESSAGE value="Updates project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates project files" />
+    <MESSAGE value="Updated gitignore" />
+    <MESSAGE value="Updated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Day1/CalorieCounter.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
