@@ -1,16 +1,31 @@
-import java.io.File;
-import java.io.InputStream;
-import java.util.ArrayList;
+package aoc.day1;
 
-import tools.MyFileReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import aoc.day1.model.Backpack;
 
 public class CalorieCounter {
 
-    //private MyFileReader reader = new MyFileReader();
-    private static final String INPUT = "input/calories.txt";
-    private static final String TEST = "input/check.txt";
+    private static final InputExtractor extractor = new InputExtractor();
+
     public static void main(String[] args) {
 
+   List<Integer> allFoodItems = extractor.extractAll();
+   List<Backpack> backpacks = extractor.getBackpacks(allFoodItems);
+   //Check on empty list needed?
+   int[] calories = new int[backpacks.size()];
+   int maxCalories = 0;
+   int id = 0;
+   for(int i = 0; i < backpacks.size(); i++){
+       calories[i] = backpacks.get(i).getCalories();
+       if(calories[i] > maxCalories) {
+           maxCalories = calories[i];
+           id = backpacks.get(i).getId();
+       }
+   }
+   System.out.println("Maximum calrories carried are " + maxCalories + " in backpack nr: " + id);
+        /*
         ArrayList<Integer> temp;
         int current = 0;
         int max = 0;
@@ -37,5 +52,6 @@ public class CalorieCounter {
        System.out.println("Maximum calories: " + max + " Hits: " + hits);
     }
 
-
+         */
+    }
 }
