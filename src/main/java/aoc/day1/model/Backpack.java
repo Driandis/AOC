@@ -2,6 +2,7 @@ package aoc.day1.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Backpack {
 
@@ -48,4 +49,22 @@ public class Backpack {
         return "Backpack ID: " + id + ", Calories: " + calories + ", Food: " + food.toString();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if(this == o){
+            return true;
+        }
+        if(o == null || getClass() != o.getClass()){
+            return false;
+        }
+        Backpack second = (Backpack) o;
+        return  id == second.id &&
+                calories == second.calories &&
+                Objects.equals(food, second.food);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, calories, food);
+    }
 }
