@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db49f2cf-fcb2-436c-82f1-160cb9b3af0b" name="Changes" comment="Updated files">
-      <change afterPath="$PROJECT_DIR$/src/main/Day1/tools/tooling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/check.txt" afterDir="false" />
+    <list default="true" id="db49f2cf-fcb2-436c-82f1-160cb9b3af0b" name="Changes" comment="Weird file at it again">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day1/InputExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day1/model/Backpack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Day1/CalorieCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Day1/CalorieCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Day1/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Day1/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Day1/tools/MyFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Day1/tools/MyFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Day1/CalorieCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day1/CalorieCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Day1/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Day1/tools/MyFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/MyFileReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Day1",
-    "last_opened_file_path": "C:/Users/aqbzy/AOC/AOC",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Day1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aqbzy/AOC/AOC&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +62,9 @@
       <option name="presentableId" value="Default" />
       <updated>1698059710842</updated>
       <workItem from="1698059711723" duration="133000" />
-      <workItem from="1698060040584" duration="6429000" />
+      <workItem from="1698060040584" duration="7416000" />
+      <workItem from="1698154750546" duration="4527000" />
+      <workItem from="1698217359754" duration="6618000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <option name="closed" value="true" />
@@ -119,7 +122,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698067122925</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changed solution, start for over engin">
+      <option name="closed" value="true" />
+      <created>1698071440525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698071440525</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Weird file at it again">
+      <option name="closed" value="true" />
+      <created>1698071519364</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698071519364</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,14 +152,16 @@
     <MESSAGE value="Updates project files" />
     <MESSAGE value="Updated gitignore" />
     <MESSAGE value="Updated files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated files" />
+    <MESSAGE value="Changed solution, start for over engin" />
+    <MESSAGE value="Weird file at it again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Weird file at it again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/Day1/CalorieCounter.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/main/java/Day1/CalorieCounter.java</url>
+          <line>37</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
