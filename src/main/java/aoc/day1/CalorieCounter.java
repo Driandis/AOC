@@ -1,6 +1,5 @@
 package aoc.day1;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import aoc.day1.model.Backpack;
