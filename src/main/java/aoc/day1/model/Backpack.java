@@ -65,6 +65,17 @@ public class Backpack {
 
     @Override
     public int hashCode() {
+        int hash = 7;
+        hash = 31 * hash + id;
+        hash = 31 * hash + calories;
+        hash = 31 * hash + food.hashCode();
+        return hash;
+    }
+
+    /* 
+    @Override
+    public int hashCode() {
         return Objects.hash(id, calories, food);
     }
+    */
 }

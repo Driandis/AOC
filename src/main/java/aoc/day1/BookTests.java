@@ -26,7 +26,7 @@ public class BookTests {
         thirdBackpack.addFood(1276);
         thirdBackpack.addFood(1783);
         thirdBackpack.addFood(2572);
-        //Switch last to items
+        //Switch last two items
         thirdBackpack.addFood(3526); //last
         thirdBackpack.addFood(5067);
 
@@ -36,6 +36,10 @@ public class BookTests {
         System.out.println(firstBackpack.toString());
         System.out.println(secondBackpack.toString());
         System.out.println(thirdBackpack.toString());
+
+        System.out.println(firstBackpack.hashCode());
+        System.out.println(secondBackpack.hashCode());
+        System.out.println(thirdBackpack.hashCode());
 
     }
 }
