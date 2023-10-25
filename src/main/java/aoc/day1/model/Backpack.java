@@ -1,4 +1,4 @@
-package day1.model;
+package aoc.day1.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ public class Backpack {
 
     private int id;
     private int calories;
-    private final ArrayList<Integer> food;
+    private final List<Integer> food;
 
     private Backpack() {
         this.food = new ArrayList<>();
