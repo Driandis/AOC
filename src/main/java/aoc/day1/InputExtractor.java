@@ -7,12 +7,13 @@ import aoc.day1.model.Backpack;
 import tools.MyFileReader;
 public class InputExtractor {
     private static final String INPUT = "aoc/day1/input/calories.txt";
+    private static final String EQUAL_TEST = "aoc/day1/input/booktest1.txt";
 
     private ArrayList<Integer> allFoodItems;
     private ArrayList<Backpack> allBackpacks = new ArrayList<>();
     public List<Integer> extractAll(){
         MyFileReader reader = new MyFileReader();
-        allFoodItems = reader.readFile(INPUT);
+        allFoodItems = reader.readFile(EQUAL_TEST);
         return allFoodItems;
     }
 
