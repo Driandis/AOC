@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db49f2cf-fcb2-436c-82f1-160cb9b3af0b" name="Changes" comment="Weird file at it again">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day1/InputExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day1/model/Backpack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="db49f2cf-fcb2-436c-82f1-160cb9b3af0b" name="Changes" comment="Implemented tests for equals">
+      <change afterPath="$PROJECT_DIR$/src/main/java/aoc/day3/DuplicateCharFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/aoc/day2/HowToBeat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/aoc/input/day3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Day1/CalorieCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day1/CalorieCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Day1/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Day1/tools/MyFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/MyFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aoc/day1/BookTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aoc/day1/BookTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aoc/day1/model/Backpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aoc/day1/model/Backpack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/aoc/day2/guide.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/aoc/day2/input/guide.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/day2/HowToBeat.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,61 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aqbzy\AOC\AOC\src\main\resources\aoc\day2\input" />
+      <recent name="C:\Users\aqbzy\AOC\AOC\src\main\resources\day1" />
+      <recent name="C:\Users\aqbzy\AOC\AOC\src\main\resources\day2" />
+      <recent name="C:\Users\aqbzy\AOC\AOC\src\main\resources\Day1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.main">
+    <configuration name="DuplicateCharFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aoc.day3.DuplicateCharFinder" />
+      <module name="AOC (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aoc.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aoc.day2.main" />
+      <module name="AOC (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aoc.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AOC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AOC" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.DuplicateCharFinder" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +121,13 @@
       <workItem from="1698059711723" duration="133000" />
       <workItem from="1698060040584" duration="7416000" />
       <workItem from="1698154750546" duration="4527000" />
-      <workItem from="1698217359754" duration="6618000" />
+      <workItem from="1698217359754" duration="7516000" />
+      <workItem from="1698237122418" duration="6423000" />
+      <workItem from="1698306338697" duration="4506000" />
+      <workItem from="1698663022755" duration="3780000" />
+      <workItem from="1699870512202" duration="4638000" />
+      <workItem from="1699955160537" duration="8857000" />
+      <workItem from="1700125909007" duration="4047000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <option name="closed" value="true" />
@@ -138,11 +201,126 @@
       <option name="project" value="LOCAL" />
       <updated>1698071519364</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated .idea files deleted test class">
+      <option name="closed" value="true" />
+      <created>1698232813049</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698232813049</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated gitignore">
+      <option name="closed" value="true" />
+      <created>1698234907698</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698234907698</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated pom to successfully build project">
+      <option name="closed" value="true" />
+      <created>1698237408016</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698237408016</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated pom moved puzzle inputs">
+      <option name="closed" value="true" />
+      <created>1698237919754</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698237919754</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Helper for Day2">
+      <option name="closed" value="true" />
+      <created>1698238338390</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698238338390</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added backpack class">
+      <option name="closed" value="true" />
+      <created>1698239711976</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698239711976</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added InputExtractor to fill backpacks&#10;with SonarChanges">
+      <option name="closed" value="true" />
+      <created>1698240657107</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698240657107</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Just restructuring">
+      <option name="closed" value="true" />
+      <created>1698240691210</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1698240691210</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Moved files">
+      <option name="closed" value="true" />
+      <created>1698240734146</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698240734146</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added executable class which checks maximum calories in backpacks">
+      <option name="closed" value="true" />
+      <created>1698240784744</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698240784744</updated>
+    </task>
+    <task id="LOCAL-00020" summary="CleanUp">
+      <option name="closed" value="true" />
+      <created>1698243406290</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698243406290</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Implemented equals and hashCode">
+      <option name="closed" value="true" />
+      <created>1698243421095</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1698243421095</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Implemented tests for equals">
+      <option name="closed" value="true" />
+      <created>1698243468254</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1698243468254</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project setup" />
@@ -150,21 +328,23 @@
     <MESSAGE value="Implemented FileReader + added quiz input" />
     <MESSAGE value="read quiz input" />
     <MESSAGE value="Updates project files" />
-    <MESSAGE value="Updated gitignore" />
     <MESSAGE value="Updated files" />
     <MESSAGE value="Changed solution, start for over engin" />
     <MESSAGE value="Weird file at it again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Weird file at it again" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Day1/CalorieCounter.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Updated .idea files deleted test class" />
+    <MESSAGE value="Updated gitignore" />
+    <MESSAGE value="Updated pom to successfully build project" />
+    <MESSAGE value="Updated pom moved puzzle inputs" />
+    <MESSAGE value="Helper for Day2" />
+    <MESSAGE value="Added backpack class" />
+    <MESSAGE value="Added InputExtractor to fill backpacks" />
+    <MESSAGE value="Added InputExtractor to fill backpacks&#10;with SonarChanges" />
+    <MESSAGE value="Just restructuring" />
+    <MESSAGE value="Moved files" />
+    <MESSAGE value="Added executable class which checks maximum calories in backpacks" />
+    <MESSAGE value="CleanUp" />
+    <MESSAGE value="Implemented equals and hashCode" />
+    <MESSAGE value="Implemented tests for equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented tests for equals" />
   </component>
 </project>

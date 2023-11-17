@@ -72,10 +72,9 @@ public class Backpack {
         return hash;
     }
 
-    /* 
-    @Override
-    public int hashCode() {
+
+    public int hashCodes() {
         return Objects.hash(id, calories, food);
     }
-    */
+
 }

@@ -30,16 +30,19 @@ public class BookTests {
         thirdBackpack.addFood(3526); //last
         thirdBackpack.addFood(5067);
 
-
+    /*
         System.out.println(firstBackpack.equals(secondBackpack));
         System.out.println(firstBackpack.equals(thirdBackpack));
         System.out.println(firstBackpack.toString());
         System.out.println(secondBackpack.toString());
         System.out.println(thirdBackpack.toString());
 
-        System.out.println(firstBackpack.hashCode());
-        System.out.println(secondBackpack.hashCode());
-        System.out.println(thirdBackpack.hashCode());
+
+     */
+        //try with deepHash
+        System.out.println(firstBackpack.hashCodes());
+        System.out.println(secondBackpack.hashCodes());
+        System.out.println(thirdBackpack.hashCodes());
 
     }
 }

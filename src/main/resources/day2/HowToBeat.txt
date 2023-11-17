@@ -1,9 +1,0 @@
-A = Rock        X = Rock
-B = Paper       Y = Paper
-C = Scissors    Z = Scissors
-
-Tabelle
-   	A	B	C
- X	-	L	W
- Y	W	-	L
- Z	L	W	-
